@@ -5,6 +5,7 @@ namespace PrimitiveObsession.App.Tests
         private Number givenNumber1;
         private Number givenNumber2;
         private Calculator calculator;
+
         [SetUp]
         public void Setup()
         {
