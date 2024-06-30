@@ -2,33 +2,24 @@
 {
     public class Calculator
     {
-        private int Number1;
-        private int Number2;
-
-        public Calculator(int givenNumber1, int givenNumber2)
+        public int Multiply(Number number1, Number number2)
         {
-            Number1 = givenNumber1;
-            Number2 = givenNumber2;
+            return number1.Value * number2.Value;
         }
 
-        public int Multiply()
+        public int Split(Number number1, Number number2)
         {
-            return Number1 * Number2;
+            return number1.Value / number2.Value;
         }
 
-        public int Split()
+        public int Subtract(Number number1, Number number2)
         {
-            return Number1 / Number2;
+            return number1.Value - number2.Value;
         }
 
-        public int Subtract()
+        public int Sum(Number number1, Number number2)
         {
-            return Number1 - Number2;
-        }
-
-        public int Sum()
-        {
-            return Number1 + Number2;
+            return number1.Value + number2.Value;
         }
     }
 }
