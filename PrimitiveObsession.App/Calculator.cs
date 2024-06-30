@@ -13,7 +13,7 @@
 
         public int Sum()
         {
-            throw new NotImplementedException();
+            return Number1 + Number2;
         }
     }
 }
