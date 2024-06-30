@@ -11,6 +11,11 @@
             Number2 = givenNumber2;
         }
 
+        public int Multiply()
+        {
+            throw new NotImplementedException();
+        }
+
         public int Subtract()
         {
             return Number1 - Number2;
