@@ -13,7 +13,7 @@
 
         public int Subtract()
         {
-            throw new NotImplementedException();
+            return Number1 - Number2;
         }
 
         public int Sum()
