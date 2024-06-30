@@ -45,5 +45,18 @@ namespace PrimitiveObsession.App.Tests
 
             Assert.IsTrue(result == givenNumber1 * givenNumber2);
         }
+
+        [Test]
+        public void SplitTwoNumbersSuccessfully()
+        {
+            var givenNumber1 = 10;
+            var givenNumber2 = 20;
+
+            var calculator = new Calculator(givenNumber1, givenNumber2);
+
+            var result = calculator.Split();
+
+            Assert.IsTrue(result == givenNumber1 / givenNumber2);
+        }
     }
 }

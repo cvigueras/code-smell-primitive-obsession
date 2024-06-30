@@ -16,6 +16,11 @@
             return Number1 * Number2;
         }
 
+        public int Split()
+        {
+            throw new NotImplementedException();
+        }
+
         public int Subtract()
         {
             return Number1 - Number2;
