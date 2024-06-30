@@ -11,6 +11,11 @@
             Number2 = givenNumber2;
         }
 
+        public int Subtract()
+        {
+            throw new NotImplementedException();
+        }
+
         public int Sum()
         {
             return Number1 + Number2;

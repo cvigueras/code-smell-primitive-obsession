@@ -19,5 +19,18 @@ namespace PrimitiveObsession.App.Tests
 
             Assert.IsTrue(result == givenNumber1 + givenNumber2);
         }
+
+        [Test]
+        public void SubstractTwoNumbersSuccessfully()
+        {
+            var givenNumber1 = 10;
+            var givenNumber2 = 20;
+
+            var calculator = new Calculator(givenNumber1, givenNumber2);
+
+            var result = calculator.Subtract();
+
+            Assert.IsTrue(result == givenNumber1 - givenNumber2);
+        }
     }
 }
